@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+    .rotate-diagonal-tr {
+        -webkit-animation: rotate-diagonal-tr 20s linear infinite both;
+        animation: rotate-diagonal-tr 20s linear infinite both;
+    }
+
+    @-webkit-keyframes rotate-diagonal-tr {
+        0% {
+            -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+        50% {
+            -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+        100% {
+            -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+    }
+    @keyframes rotate-diagonal-tr {
+        0% {
+            -webkit-transform: rotate3d(1, 1, 0, 0deg);
+            transform: rotate3d(1, 1, 0, 0deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+        50% {
+            -webkit-transform: rotate3d(1, 1, 0, -180deg);
+            transform: rotate3d(1, 1, 0, -180deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+        100% {
+            -webkit-transform: rotate3d(1, 1, 0, -360deg);
+            transform: rotate3d(1, 1, 0, -360deg);
+            -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+        }
+    }
+
+    body {
+        background-color: darkblue;
+        color: white;
+    }
+
+</style>
+</head>
+<body>
+<h1 class="rotate-diagonal-tr">Hi im jeff BezOs</h1>
+<h2>welcome to my <b><i>cool</i></b> website</h2>
+<img style="margin-left: 100px" src="https://i.insider.com/60f21f457b0ec5001800a9f5?width=700" width="1200px" height="300px">
+</body>
+</html>
